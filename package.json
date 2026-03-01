@@ -1,0 +1,17 @@
+{
+  "name": "yegara-lms",
+  "version": "1.0.0",
+  "description": "Modern Learning Management System",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": ["lms", "learning", "education", "courses"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
